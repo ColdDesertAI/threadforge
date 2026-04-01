@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  VERCEL_ORG_ID: team_CTLBQDCye76WywtsWBP9v08s
+  VERCEL_PROJECT_ID: prj_SviYj0PupIHG3oHaEysFNrLEvvPf
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
